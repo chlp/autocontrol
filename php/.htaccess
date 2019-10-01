@@ -1,0 +1,11 @@
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+<IfModule mod_charset.c>
+    CharsetSourceEnc utf-8
+    CharsetDefault utf-8
+</IfModule>
+php_value date.timezone Etc/GMT-4
+RewriteEngine on
+RewriteRule ^([^/\.]+)/([^/\.]+)?$ index.php?page=$1&$2 [L]
+RewriteRule ^([^/\.]+)?$ index.php?page=$1 [L]
+RewriteRule ^/?$ index.php [L]
