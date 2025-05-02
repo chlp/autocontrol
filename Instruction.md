@@ -77,6 +77,12 @@ Tested with MySQL 5.7.29 Community Edition. Download:
 
 Only install the Server component and restore the database from the dump.
 
+<img width="872" alt="image" src="https://github.com/user-attachments/assets/cf3cfda3-3b1d-4d48-ac3e-decf03538c83" />
+
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/2f4525fb-d733-4dda-b6ba-1e0bab55886f" />
+
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/e44b0d2f-ab3b-4f59-adda-48a00877dc94" />
+
 ## IIS Configuration
 
 Download and install PHP (7.3 NTS x64) and required extensions:
@@ -97,7 +103,27 @@ extension=pgsql
 extension=php_sqlsrv.dll
 ```
 
+<img width="1329" alt="image" src="https://github.com/user-attachments/assets/809f3962-27ad-448a-9c5a-eecc4e6ba59d" />
+
 Set IIS to run under a user with access to Navision (e.g., `NAV_KPP`). Deploy to `C:\inetpub\wwwroot`. Config file path: `C:\inetpub\wwwroot\Config.php`.
+
+![iis-1](https://github.com/user-attachments/assets/998aad91-51dc-44cd-8181-0fe77c634c61)
+
+<img width="650" alt="iis-2" src="https://github.com/user-attachments/assets/302ce306-a90b-4d7b-9822-f20a139661bd" />
+
+<img width="646" alt="iis-3" src="https://github.com/user-attachments/assets/abb814e9-8bbb-4faa-89c0-4f8cf45914f3" />
+
+<img width="645" alt="iis-4" src="https://github.com/user-attachments/assets/eb8166ca-f92a-4391-944c-e217cb15df56" />
+
+<img width="626" alt="iis-5" src="https://github.com/user-attachments/assets/5c5397f8-f76e-4862-a55e-445099595bb3" />
+
+<img width="628" alt="iis-6" src="https://github.com/user-attachments/assets/e2a02b33-7fe2-41be-af03-ca3559ea0d27" />
+
+<img width="693" alt="iis-7" src="https://github.com/user-attachments/assets/2ec857ff-ce45-4159-8764-edab64428c1f" />
+
+<img width="750" alt="iis-8" src="https://github.com/user-attachments/assets/d7546211-3e3c-4bff-abb3-7528a4e10da8" />
+
+<img width="771" alt="iis-9" src="https://github.com/user-attachments/assets/0a52ea97-a8ec-4b24-8ea1-999fc0ace181" />
 
 ## License Plate Recognition Setup
 
@@ -115,3 +141,5 @@ Copy the shortcut to `go-mosbrew-scales.exe` into `%userprofile%\AppData\Roaming
 
 Use Chromium or Ungoogled Chromium:
 - [ungoogled-chromium Win64](https://chromium.woolyss.com/)
+
+<img width="1192" alt="client" src="https://github.com/user-attachments/assets/4ea73d71-8582-41e1-abe2-a24f19ad8ac4" />
