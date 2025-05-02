@@ -21,4 +21,4 @@ This project provides a standalone PHP-based application that automates a specif
 
 ## ⚙️ Setup Instructions
 
-- TODO
+- [Instruction.md](./Instruction.md)
