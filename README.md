@@ -17,7 +17,7 @@ This project provides a standalone PHP-based application that automates a specif
   - Relay boards for **sensor and barrier control**
   - **Microsoft Navision** for business process verification
   - **License Plate Recognition (LPR)** software
-  - **Weighing equipment** via **COM port**
+  - **Weighing equipment** via **COM port** - use the application https://github.com/chlp/mosbrew_scales
 
 ## ⚙️ Setup Instructions
 
