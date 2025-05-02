@@ -1,6 +1,6 @@
 # Auto-Control Software
 
-<img width="874" alt="image" src="https://github.com/user-attachments/assets/66bb13b5-070d-4014-b4cc-18eb2a4f052e" />
+![autocontrol](https://github.com/user-attachments/assets/66bb13b5-070d-4014-b4cc-18eb2a4f052e)
 
 * [**Overview**](#overview)
 * * [Purpose](#purpose)
@@ -25,6 +25,8 @@ Auto-Control is a network-based software system that manages vehicle traffic pas
 
 Diagram 1
 
+![diagram-1](https://github.com/user-attachments/assets/19d13423-04dc-4d62-8950-6885397bc8dd)
+
 Diagram 1 shows the main nodes the Auto-Control server interacts with. It helps explain the standard flow of a vehicle passing through the checkpoint.
 
 1. A vehicle arrives at the external side of the plant's checkpoint. The driver steps out and hands over a delivery note.
@@ -38,11 +40,15 @@ Diagram 1 shows the main nodes the Auto-Control server interacts with. It helps 
 
 Diagram 2
 
+![diagram-2](https://github.com/user-attachments/assets/5de669c4-181b-4847-88ca-fc4c648a6162)
+
 Diagram 2 shows the system layout from Diagram 1 in more detail, including addresses, hostnames, and data exchange ports.
 
 ## Barrier Control Loop
 
 Diagram 3
+
+![diagram-3](https://github.com/user-attachments/assets/d47143dc-daf2-46c8-b63c-7b365c443eb7)
 
 Barriers are operated via relay boards. A physical circuit is closed to trigger movement (open/close). By controlling relay outputs, the system can allow or restrict access. Diagram 3 shows the interaction clearly.
 
